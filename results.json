@@ -1,0 +1,1008 @@
+{
+  "round_used": 32263086,
+  "drand_signature": "93ee3d3dfade20f0282fa85c78d4e15de9065ae07f27c0162dacaba315b3d3ca42bffa39a81acf5841689739def336e7",
+  "participating_local_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "excluded_local_ids": [],
+  "revealed": {
+    "1": {
+      "user_input": 49,
+      "client_nonce": "9475d1e618b6d2a8753c5cc74be7b717",
+      "client_timestamp": "2026-09-14T21:34:20.415Z"
+    },
+    "2": {
+      "user_input": 6,
+      "client_nonce": "f6e2bcd3886beae5018ee30c83104420",
+      "client_timestamp": "2026-09-14T21:34:51.211Z"
+    },
+    "3": {
+      "user_input": 2,
+      "client_nonce": "0a4456ebed3ef2538e4d8a0ebfb6e0de",
+      "client_timestamp": "2026-09-14T22:20:41.310Z"
+    },
+    "4": {
+      "user_input": 173,
+      "client_nonce": "a08d53500352eda13191056bce9aa9d0",
+      "client_timestamp": "2026-09-15T05:59:00.206Z"
+    },
+    "5": {
+      "user_input": 222,
+      "client_nonce": "d38fea27aa9fe0a67c21e8872cb1eeef",
+      "client_timestamp": "2026-09-14T21:57:38.316Z"
+    },
+    "6": {
+      "user_input": 225,
+      "client_nonce": "c681e2d3ef123a307b126939a4b9f5de",
+      "client_timestamp": "2026-09-14T21:59:11.032Z"
+    },
+    "7": {
+      "user_input": 83,
+      "client_nonce": "e0c24a5855a97b87148214907b2dacad",
+      "client_timestamp": "2026-09-14T22:12:32.363Z"
+    },
+    "8": {
+      "user_input": 137,
+      "client_nonce": "8740d90cef27a07803fc49526a5de554",
+      "client_timestamp": "2026-09-15T07:53:33.013Z"
+    },
+    "9": {
+      "user_input": 17,
+      "client_nonce": "ee79d15a6f7b839df531367977273aaf",
+      "client_timestamp": "2026-09-15T06:37:01.368Z"
+    },
+    "10": {
+      "user_input": 17,
+      "client_nonce": "87c5bc08d47908844c76338b1a1816e0",
+      "client_timestamp": "2026-09-15T11:26:16.924Z"
+    },
+    "11": {
+      "user_input": 103,
+      "client_nonce": "1a11cb6cb275a25cd535fa0a022394c7",
+      "client_timestamp": "2026-09-15T08:43:43.301Z"
+    },
+    "12": {
+      "user_input": 213,
+      "client_nonce": "e1a903d0c368cc11ac46d5e328bb66b3",
+      "client_timestamp": "2026-09-15T20:08:57.623Z"
+    }
+  },
+  "contributions": {
+    "1": "8fc6b2fa2716e7acace51de6a9aa1f6f50b2ba1aa353f2fc2a9ba941e6bf90b9",
+    "2": "f01bb47d26b5105a50e49cfdc867ed6b895552994594a051d648dd29829bb327",
+    "3": "c66f1cb53b395b9132855163dfc55f0c212a790bbe5dc3d0d1ecd3027e84030f",
+    "4": "3158237ad93119f183d5cf95dc5ce85fc61e3ee45b391b1cb72c4e7e56e1ee1a",
+    "5": "844b0624eb48033733b27b136e60ee7384a6285eb6ad7a8c389d03568006d0cd",
+    "6": "850486046c3a8083ae24bec739c013dda52ae2319caffbfc97d8aac07a95767d",
+    "7": "75b59adde811a5578d5754942baaed54253d6adeaca962d09fa174d24998ed77",
+    "8": "c9fbab76d89dc39a0a1f957b8083181ea06a840228f1835259e52df8a30cf8ad",
+    "9": "526fb3266d0068187ea4a92b82858a5e98b2d4d6188a9dd4126a1f17616d6b21",
+    "10": "82771dfc55d1826f58596827eb98bab9102faf1d9dc50095906b10c15465c275",
+    "11": "246c62f02a7e77a650a9fe908a2163e2f836669d13d2782b03eda2ecdcb6139e",
+    "12": "2353d83d94289ada9c35a5437e400ba01bc366a276e6b1091949a462e2f104b0"
+  },
+  "R": "e2cc9cd4d2d257e4bdee810903a11516f160f02b4d82bef06bb710f05709c39b",
+  "seed": "3e9e2decba31064f1ef951677dfc8c2e287c240238e168db3b15ef32e7c4d87c",
+  "permutation": [
+    11,
+    9,
+    6,
+    8,
+    5,
+    1,
+    12,
+    2,
+    10,
+    7,
+    3,
+    4
+  ],
+  "permutation_note": "permutation[k] is the local_id seated on abstract point k of schedule_template.json",
+  "encoding_note": "contribution = SHA256(DOMAIN 1f \"contrib\" 1f u8(local_id) 1f u8(user_input) 1f nonce16 1f ascii(timestamp)); seed = SHA256(DOMAIN 1f \"seed\" 1f R 1f hexdecode(signature) 1f u8(local_id)...) — see generate.js",
+  "seed_domain_separation": "mahjong-seating-v1",
+  "schedule_template_ref": "data/schedule_template.json@first",
+  "generate_script_ref": "generate.js@first",
+  "pantheon_event_id": 2,
+  "seating": {
+    "seat_order": [
+      "E",
+      "S",
+      "W",
+      "N"
+    ],
+    "rounds": [
+      {
+        "round": 1,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "S": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "W": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "N": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "S": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "W": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "N": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "S": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "W": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "N": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "S": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "W": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "N": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "S": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "W": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "N": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "S": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "W": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "N": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "S": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "W": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "N": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "S": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "W": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "N": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "S": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "W": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "N": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "S": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "W": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "N": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "S": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "W": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "N": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "S": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "W": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "N": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "S": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "W": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "N": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "S": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "W": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "N": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "S": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "W": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "N": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "S": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "W": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "N": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "S": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "W": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "N": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "S": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "W": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "N": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 7,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "S": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "W": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "N": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "S": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "W": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "N": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "S": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "W": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "N": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 8,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "S": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "W": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "N": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "S": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              },
+              "W": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "N": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "S": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "W": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "N": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "S": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "W": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "N": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "S": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "W": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "N": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "S": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "W": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "N": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "S": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "W": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "N": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "S": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "W": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              },
+              "N": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "S": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "W": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              },
+              "N": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "round": 11,
+        "tables": [
+          {
+            "table": 1,
+            "seats": {
+              "E": {
+                "point": 4,
+                "local_id": 5,
+                "title": "Dean"
+              },
+              "S": {
+                "point": 1,
+                "local_id": 9,
+                "title": "Junjie"
+              },
+              "W": {
+                "point": 11,
+                "local_id": 4,
+                "title": "Kaien"
+              },
+              "N": {
+                "point": 6,
+                "local_id": 12,
+                "title": "Isabelle"
+              }
+            }
+          },
+          {
+            "table": 2,
+            "seats": {
+              "E": {
+                "point": 2,
+                "local_id": 6,
+                "title": "MeiMei"
+              },
+              "S": {
+                "point": 3,
+                "local_id": 8,
+                "title": "Noah"
+              },
+              "W": {
+                "point": 9,
+                "local_id": 7,
+                "title": "Dishu"
+              },
+              "N": {
+                "point": 5,
+                "local_id": 1,
+                "title": "Feiyang"
+              }
+            }
+          },
+          {
+            "table": 3,
+            "seats": {
+              "E": {
+                "point": 10,
+                "local_id": 3,
+                "title": "Santi"
+              },
+              "S": {
+                "point": 0,
+                "local_id": 11,
+                "title": "Xena"
+              },
+              "W": {
+                "point": 8,
+                "local_id": 10,
+                "title": "Robert"
+              },
+              "N": {
+                "point": 7,
+                "local_id": 2,
+                "title": "Anthony | Phoko"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "pantheon_prescript": "11-9-6-8\n7-10-3-4\n1-12-2-5\n\n1-3-5-4\n11-6-10-9\n8-2-12-7\n\n12-5-11-8\n10-1-2-9\n3-7-6-4\n\n2-4-5-6\n8-10-7-12\n9-1-11-3\n\n9-7-2-1\n12-4-6-11\n5-8-3-10\n\n4-10-8-1\n2-11-12-3\n7-6-9-5\n\n3-12-9-7\n5-2-10-6\n1-8-4-11\n\n10-11-7-5\n9-2-4-8\n6-12-1-3\n\n12-6-1-10\n8-5-3-9\n7-4-11-2\n\n6-3-8-2\n11-5-1-7\n4-9-12-10\n\n5-9-4-12\n6-8-7-1\n3-11-10-2"
+}
